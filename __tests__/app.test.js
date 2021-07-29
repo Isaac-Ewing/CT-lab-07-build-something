@@ -11,7 +11,7 @@ describe('demo routes', () => {
   it('tests post', async () => {
     const res = await request(app)
       .post('/api/v1/num')
-      .send({ number: 21 });
+      .send({ number: 1139 });
 
     expect(res.body).toEqual({ id: '1', value: '1A' });
 

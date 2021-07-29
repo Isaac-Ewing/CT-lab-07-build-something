@@ -13,7 +13,7 @@ describe('demo routes', () => {
       .post('/api/v1/num')
       .send({ number: 21 });
 
-    expect(res.body).toEqual(43);
+    expect(res.body).toEqual({ id: '1', value: '1A' });
 
   });
 });
